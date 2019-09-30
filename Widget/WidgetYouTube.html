@@ -12,7 +12,7 @@
   <title>Widget Edit</title>
   </head>
   <body>
-    <nav class="navbar bg-light navbar-light fixed-top">
+    <nav class="navbar navbar-light bg-light fixed-top">
       <span class="navbar-brand h1 mb-0">Widget Edit</span>
       <i class="fas fa-check text-dark"></i>
     </nav>
@@ -42,14 +42,16 @@
       <div class="form-group">
           <label for="width">Width</label>
             <input
-            type="text"
+            type="range"
+            min="1"
+            max="100"
             class="form-control"
             id="width"
 />
 </form>
     <a class="btn btn-danger btn-block" href="Delete.html">Delete</a> 
   </div>
-  <label class="navbar bg-light fixed-bottom">
+  <label class="navbar navbar-light bg-light fixed-bottom">
     <span></span>
     <a class="text-dark" href="../user/Profile.html">
       <i class="fas fa-user"></i>
